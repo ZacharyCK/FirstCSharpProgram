@@ -9,7 +9,10 @@ class Program
         Console.WriteLine("Please enter your credentials");
         Console.Write("username: ");
         string userName = Console.ReadLine();
+        Console.Write("password: ");
+        string password = Console.ReadLine();
         Console.WriteLine(userName);
+        Console.WriteLine(password);
 
         /*
         for (int i = 0; i <= 10; i++)
